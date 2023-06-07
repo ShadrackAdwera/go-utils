@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-const alphabet = "qazwsxedcrfvtgbyhnujmikolp"
+const alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 func init() {
 	rand.New(rand.NewSource(time.Now().UnixNano()))
